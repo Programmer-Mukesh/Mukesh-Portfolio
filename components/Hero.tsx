@@ -3,6 +3,7 @@ import React from "react";
 import { Cursor, Typewriter } from "react-simple-typewriter";
 import BackgroungCircles from "./BackgroungCircles";
 import myImage from "./../public/Mike.jpg";
+import Link from "next/link";
 type Props = {};
 
 const Hero = (props: Props) => {
@@ -25,10 +26,31 @@ const Hero = (props: Props) => {
           width={200}
         />
       </div>
-      <h1>
-        <Typewriter words={aboutHeadings} loop={true} delaySpeed={2000} />
-        <Cursor cursorColor="#F7AB0A" />
-      </h1>
+      <div className="z-20">
+        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+          Software Engineer
+        </h2>
+        <h1 className="text-4xl lg:text-5xl font-semibold px-10">
+          <span className="mr-3">
+            <Typewriter words={aboutHeadings} loop={true} delaySpeed={2000} />
+          </span>
+          <Cursor cursorColor="#F7AB0A" />
+        </h1>
+        <div className="pt-5">
+          <Link href="#about">
+            <button className="heroButton">About</button>
+          </Link>
+          <Link href="#experience">
+            <button className="heroButton">Experience</button>
+          </Link>
+          <Link href="#skills">
+            <button className="heroButton">Skills</button>
+          </Link>
+          <Link href="#project">
+            <button className="heroButton">Project</button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
