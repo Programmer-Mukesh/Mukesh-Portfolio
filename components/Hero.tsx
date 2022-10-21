@@ -9,9 +9,9 @@ type Props = {};
 const Hero = (props: Props) => {
   const aboutHeadings = [
     "Hi, This is Mukesh Kumar",
-    "a <Software Engineer/>",
-    "a Photographer",
-    "an Artist",
+    "I'm a Front-end developer",
+    "Guy-who-loves-designing-web-pages.js",
+    "<AndAlsoLikesPhotography/>",
   ];
 
   return (
