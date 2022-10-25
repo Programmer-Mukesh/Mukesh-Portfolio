@@ -25,7 +25,7 @@ const About = (props: Props) => {
         viewport={{
           once: true,
         }}
-        className="w-40 h-40 rounded-full mb-20 md:mb-0 flex-shrink-0 object-cover md:rounded-lg md:w-[250px] md:h-[250px]  lg:w-[330px] lg:h-[330px] md:mr-5 "
+        className="w-40 h-40 rounded-full mb-2 md:mb-0 flex-shrink-0 object-cover md:rounded-lg md:w-[250px] md:h-[250px]  lg:w-[330px] lg:h-[330px] md:mr-5 "
         src="https://avatars.githubusercontent.com/u/77101515?s=400&u=adc13a6fd748f4e69f7eb0f304a55f5a7aee44e9&v=4"
       ></motion.img>
       <div className="space-y-10 px-0 md:px-10 ">
@@ -38,8 +38,8 @@ const About = (props: Props) => {
           I'm Mukesh, currently working as a Software Engineer-1 at Carnation
           InfoTech. I have more than 1 year of experience working on Front-end
           Web Technologies like React, Redux, Next.js etc. I love designing web
-          pages and love creating unique designs. I also passionate about photography and
-          learning about new technologies.
+          pages and love creating unique designs. I also passionate about
+          photography and learning about new technologies.
         </p>
       </div>
     </div>
