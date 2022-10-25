@@ -11,7 +11,7 @@ const Hero = (props: Props) => {
     "Hi, This is Mukesh Kumar",
     "I'm a Front-end developer",
     "Guy-who-loves-designing-web-pages.js",
-    "<AndAlsoLikesPhotography/>",
+    "And also likes <Photography/>",
   ];
 
   return (
@@ -22,8 +22,6 @@ const Hero = (props: Props) => {
           src={myImage}
           alt="image"
           className="absolute rounded-full h-32 w-32 mx-auto object-cover"
-          height={200}
-          width={200}
         />
       </div>
       <div className="z-20">
