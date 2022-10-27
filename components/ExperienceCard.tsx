@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "../public/carnationlogo.png";
+import logo from "../public/carnationLogo.png";
 import { motion } from "framer-motion";
 type Props = {};
 
