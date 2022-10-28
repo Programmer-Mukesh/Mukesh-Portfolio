@@ -6,7 +6,7 @@ type Props = {};
 
 const ExperienceCard = (props: Props) => {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-1 md:space-y-4  w-[500px] md:w-[600px] p-7 bg-[#292929] opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200 ">
+    <article className="flex flex-col rounded-lg items-center space-y-1 md:space-y-4  w-[500px] md:w-[600px] p-7 bg-[#292929] opacity-100 sm:opacity-40 sm:hover:opacity-100 cursor-pointer transition-opacity duration-200 ">
       <motion.div
         className="w-[180px] md:w-[230px]"
         initial={{ y: -100, opacity: 0 }}

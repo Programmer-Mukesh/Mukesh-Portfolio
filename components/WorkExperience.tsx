@@ -9,7 +9,7 @@ const WorkExperience = (props: Props) => {
       <h3 className="absolute top-20 sm:top-24 uppercase tracking-[20px] text-2xl text-gray-500">
         Experience
       </h3>
-      <div className="flex w-full space-x-5 overflow-x-scroll p-10  justify-center">
+      <div className="flex w-full space-x-5 overflow-x-scroll p-10  justify-center sm:mt-12">
         <ExperienceCard />
       </div>
     </div>
